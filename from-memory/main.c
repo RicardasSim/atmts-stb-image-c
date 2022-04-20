@@ -8,7 +8,7 @@
 int main()
 {
 
-    // loading iamge into memory
+    // loading image into memory
 
     FILE *fp;
 
