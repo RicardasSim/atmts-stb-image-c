@@ -42,7 +42,7 @@ int main()
         }
         else if( channels == 4 )
         {
-            a = (uint8_t) *p + 4;
+            a = (uint8_t) *p + 3;
         }
     }
 */
