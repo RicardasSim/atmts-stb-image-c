@@ -25,7 +25,7 @@ int main()
 
     size_t image_size = width * height * channels;
 
-    printf( "image size in bytes: %zd\n", image_size );
+    printf( "image size in bytes: %zu\n", image_size );
 
     // image data
 /*
