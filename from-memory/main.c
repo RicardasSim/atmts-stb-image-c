@@ -84,13 +84,13 @@ int main()
     {
         if( channels == 3 )
         {
-            v1 = (uint8_t) *p;
-            v2 = (uint8_t) *p + 1;
-            v3 = (uint8_t) *p + 2;
+            v1 = *p;
+            v2 = *(p + 1);
+            v3 = *(p + 2);
         }
         else if( channels == 4 )
         {
-            a = (uint8_t) *p + 3;
+            a = *(p + 3);
         }
     }
 */
